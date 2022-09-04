@@ -1,0 +1,93 @@
+[ {
+  "line" : 3,
+  "elements" : [ {
+    "start_timestamp" : "2022-08-05T16:05:54.506Z",
+    "line" : 6,
+    "name" : "To verify the login feature",
+    "description" : "",
+    "id" : "to-perform-login-functionality;to-verify-the-login-feature",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 5535928300,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "To launch the adactin home page",
+      "match" : {
+        "location" : "com.adactinstep.AdactinStep.to_launch_the_adactin_home_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 87023000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "I enter username \"priyabharathi\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"priyabharathi\"",
+          "offset" : 17
+        } ],
+        "location" : "com.adactinstep.AdactinStep.i_enter_username(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 62292800,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "I enter password \"bharathi\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"bharathi\"",
+          "offset" : 17
+        } ],
+        "location" : "com.adactinstep.AdactinStep.i_enter_password(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1526526400,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "I click login button",
+      "match" : {
+        "location" : "com.adactinstep.AdactinStep.i_click_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "It should navigate to adactin home page",
+      "match" : {
+        "location" : "com.adactinstep.AdactinStep.it_should_navigate_to_adactin_home_page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@tag"
+    }, {
+      "name" : "@tag1"
+    } ]
+  } ],
+  "name" : "To perform login functionality",
+  "description" : "",
+  "id" : "to-perform-login-functionality",
+  "keyword" : "Feature",
+  "uri" : "file:Feature/adactin.feature",
+  "tags" : [ {
+    "name" : "@tag",
+    "type" : "Tag",
+    "location" : {
+      "line" : 2,
+      "column" : 1
+    }
+  } ]
+} ]
